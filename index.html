@@ -1,35 +1,44 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JavaScript Homework - 4/5</title>
+
     <style>
-        #theme{
-            margin: auto;
-            width: 300px;
-            height: 300px;
-            border: 1px solid black;
-        }
-        button{
-            width: 100px;
-            height: 50px;
-            border: none;
-            margin: 10px;
-        }
-        
+      #theme {
+        margin: auto;
+        width: 300px;
+        height: 300px;
+        border: 1px solid black;
+      }
+
+      button {
+        width: 100px;
+        height: 50px;
+        border: none;
+        margin: 10px;
+      }
     </style>
-</head>
-<body>
-    <textarea id="message" rows="4" cols="50" maxlength="100">[Your comment here..]</textarea>
+  </head>
+
+  <body>
+    <textarea
+      id="message"
+      rows="4"
+      cols="50"
+      maxlength="100"
+      placeholder="[Your comment here..]"
+    ></textarea>
+
     <p id="length"></p>
 
     <div id="theme">
-        <h1>light/dark</h1>
-        <button id="light-btn">Light Mode</button>
-        <button id="dark-btn">Dark Mode</button>
+      <h1>Light / Dark Mode</h1>
+
+      <button id="theme-btn">Dark Mode</button>
     </div>
 
     <script src="./index.js"></script>
-</body>
+  </body>
 </html>
