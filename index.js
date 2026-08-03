@@ -1,4 +1,4 @@
-//Task numero uno
+//Task #1
 
 const message = document.getElementById("message");
 
